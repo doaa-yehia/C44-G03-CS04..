@@ -254,6 +254,87 @@
 
 
             #endregion
+
+            #region string
+
+            #region Example 01
+
+            //string name = new string("Route");  //Route
+            //Console.WriteLine(name);
+            //Console.WriteLine(name.GetHashCode()); //415468032
+
+            //string name02 = "Route";   //string literal
+            //Console.WriteLine(name02.GetHashCode()); //415468032
+
+
+
+            #endregion
+
+            #region Example 02
+
+            //string name01 = "Maher";
+            //string name02 = "Mai";
+
+            //Console.WriteLine(name01);
+            //Console.WriteLine(name01.GetHashCode()); //356271460
+
+            //Console.WriteLine(name02);
+            //Console.WriteLine(name02.GetHashCode()); //1075708044
+
+            //name02 = name01;
+            //Console.WriteLine(" After Assign name02 = name01");
+            //Console.WriteLine(name01);
+            //Console.WriteLine(name01.GetHashCode()); 
+
+            //Console.WriteLine(name02);
+            //Console.WriteLine(name02.GetHashCode()); 
+
+            //name01 = "Ali";
+
+            //Console.WriteLine(" After change name01");
+            //Console.WriteLine(name01);
+            //Console.WriteLine(name01.GetHashCode()); 
+
+            //Console.WriteLine(name02);
+            //Console.WriteLine(name02.GetHashCode()); 
+
+            #endregion
+
+            #region Example 03
+
+            //string message = "Hello";
+            //Console.WriteLine(message);
+            //Console.WriteLine(message.GetHashCode());
+
+            //message += " Route";
+
+            //Console.WriteLine(message);
+            //Console.WriteLine(message.GetHashCode());  //Diffirent referance 
+
+            #endregion
+
+            #region string Methods
+
+            //string message = "  Hello Route  ";
+            //Console.WriteLine(message.Length);
+            //Console.WriteLine(message.ToLower());
+            //Console.WriteLine(message.ToUpper());
+            //Console.WriteLine(message.Trim());
+            //Console.WriteLine(message.TrimEnd());
+            //Console.WriteLine(message.TrimStart());
+            //Console.WriteLine(message.Substring(5));
+            //Console.WriteLine(message.Replace('e','m'));
+            //Console.WriteLine(message.Contains('o'));  //true or false
+
+
+
+
+            #endregion
+
+            #endregion
+
+
+
         }
     }
 }
