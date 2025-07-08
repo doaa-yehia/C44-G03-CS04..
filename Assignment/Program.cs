@@ -296,8 +296,38 @@
 
             #endregion
 
+            #region Q11
+            ///Write a program that prints an identity matrix using for loop, 
+            ///in other words takes a value n from the user and shows the identity table of size n * n.
 
+            //Console.Write("Please Enter  Number : ");
+            //bool isParsed = int.TryParse(Console.ReadLine(), out int number);
 
+            //if (isParsed && number >= 0)
+            //{
+            //    for(int i=0; i < number; i++)
+            //    {
+
+            //        for(int j = 0; j < number; j++)
+            //        {
+            //            if (i == j)
+            //            {
+            //                Console.Write(" 1 ");
+            //            }
+            //            else
+            //            {
+            //                Console.Write(" 0 ");
+
+            //            }
+            //        }
+            //        Console.WriteLine("\n");
+            //    }
+            //}
+            //else
+            //{
+            //    Console.WriteLine(" You Must Enter Positeve Number ");
+            //}
+            #endregion
 
 
         }
