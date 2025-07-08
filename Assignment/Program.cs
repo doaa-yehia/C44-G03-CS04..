@@ -151,6 +151,26 @@
 
             #endregion
 
+            #region Q07
+            ///Write a program to allow the user to enter int and print the REVERSED of it.
+
+            //Console.Write("Please Enter Number : ");
+            //bool isParsed = int.TryParse(Console.ReadLine(), out int number);
+            //int temp = number;
+            //int revNum=0;
+            //if (isParsed)
+            //{
+            //    while( temp > 0)
+            //    {
+            //        int digit = temp % 10;
+            //        revNum = revNum * 10 + digit;
+            //        temp /= 10;
+            //    }
+            //}
+            //Console.WriteLine(revNum);
+
+            #endregion
+
 
 
 
