@@ -73,6 +73,33 @@
 
             #endregion
 
+            #region Q04
+            ///Write a program that takes two integers then prints the power.
+
+            //Console.Write("Please Enter Number : ");
+            //bool isParsed = int.TryParse(Console.ReadLine(), out int number);
+
+            //Console.Write("Please Enter Power : ");
+            //bool isnumber = int.TryParse(Console.ReadLine(), out int power);
+            //int num = 1;
+
+            //if (isParsed && isnumber)
+            //{
+            //    for (int i = 1; i <= power; i++)
+            //    {
+            //        num *= number;
+
+            //    }
+            //    Console.WriteLine($"The Number {number} Power {power} = {num} ");
+
+            //}
+            //else
+            //{
+            //    Console.WriteLine("you didn't Enter Numbers");
+            //}
+
+            #endregion
+
 
 
         }
