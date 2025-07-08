@@ -333,7 +333,57 @@
 
             #endregion
 
+            #region String Builder
 
+            //StringBuilder message;
+
+            //message = new StringBuilder("Hello");
+
+            //Console.WriteLine(message);
+            //Console.WriteLine(message.GetHashCode());
+            //message.Clear();
+            //message.Append( "Route" );
+            //Console.WriteLine("After changing message");
+            //Console.WriteLine(message);
+            //Console.WriteLine(message.GetHashCode()); //same referance
+
+
+            #endregion
+
+            #region stringBuilder Methods
+
+            //StringBuilder message = new StringBuilder("Hello");
+
+            //Console.WriteLine(message);
+            //message.Append(" Route");
+            //Console.WriteLine(message);
+
+            //message.AppendLine("Welcom"); //make Append Then down line
+            //Console.WriteLine(message);
+
+            //message.Append("New Student");
+            //Console.WriteLine(message);
+
+            //message.Replace("New Student", "Doaa");
+            //Console.WriteLine(message);
+
+            //message.Remove(0, 5);
+            //Console.WriteLine(message);
+
+            //message.Insert(0, "Hi");
+            //Console.WriteLine(message);
+
+
+            //StringBuilder message = new StringBuilder("Hello");
+            //message.AppendLine("Amr");
+
+            //int age = 25;
+
+            //message.AppendFormat(" Your Age is : {0}", age);
+
+            //message.AppendJoin('_', "Mohamed", "Yehia","Mostafa" );
+
+            #endregion
 
         }
     }
