@@ -217,6 +217,40 @@
 
             #endregion
 
+            #region while - Do While
+
+            #region do while
+            //int number;
+            //bool isParsed;
+            //do
+            //{
+            //    Console.Write("Please Enter Even Number: ");
+            //     isParsed = int.TryParse(Console.ReadLine(), out  number);
+            //}
+            //while ( !isParsed || number %2 != 0);
+
+            //Console.WriteLine($"{number} is Even Number");
+
+            #endregion
+
+            #region While
+
+            //Console.Write("Please Enter Even Number: ");
+            //bool isParsed = int.TryParse(Console.ReadLine(), out  int number);
+
+            //if (isParsed)
+            //{
+            //    while (number <= 10)
+            //    {
+            //        Console.WriteLine(number);
+            //        number++;
+            //    }
+            //}
+
+            #endregion
+
+            #endregion
+
 
 
             #endregion
