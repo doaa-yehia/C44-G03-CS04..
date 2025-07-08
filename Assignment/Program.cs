@@ -171,6 +171,54 @@
 
             #endregion
 
+            #region Q08
+            ///Write a program in C# Sharp to find prime numbers within a range of numbers.
+
+            //Console.Write("Please Enter Starting Number : ");
+            //bool isParsed = int.TryParse(Console.ReadLine(), out int start);
+
+            //Console.Write("Please Enter Ending Number : ");
+            //bool isnumber = int.TryParse(Console.ReadLine(), out int end);
+
+            //int first = start < end ? start : end;
+            //int last = end > start ? end : start;
+
+            //bool index = false;
+
+            //if (isParsed && isnumber)
+            //{
+
+            //    for( int i=first; i<=last;i++)
+            //    {
+            //        bool flag = true;
+            //        for (int j=2;j<=i/2; j++)
+            //        {
+            //            if (i % j == 0 )
+            //            {
+
+            //                flag = false;
+            //            }
+            //        }
+            //        if (!index)
+            //        {
+            //            Console.WriteLine($"The prime number between {start} and {end} are");
+            //            index = true;
+            //            continue;
+            //        }
+
+            //        if (flag && i != 1)
+            //        {
+            //            Console.WriteLine(i);
+            //        }
+            //    }
+            //}
+            //else
+            //{
+            //    Console.WriteLine( "You Must Enter Numbers" );
+            //}
+
+            #endregion
+
 
 
 
