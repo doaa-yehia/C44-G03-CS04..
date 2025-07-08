@@ -137,6 +137,20 @@
 
             #endregion
 
+            #region Q06
+            /// Write a program to allow the user to enter a string and print the REVERSE of it.
+
+            //Console.Write("Please Enter Worlds : ");
+            //string message = Console.ReadLine() ?? "";
+            //string revMessage = "";
+            //for (int i = (message.Length) - 1 ; i >= 0 ; i--)
+            //{
+            //    revMessage += message[i];
+            //}
+            //Console.WriteLine(revMessage);
+
+            #endregion
+
 
 
 
