@@ -243,6 +243,59 @@
 
             #endregion
 
+            #region Q10
+            ///Create a program that asks the user to input three points (x1, y1), (x2, y2), and (x3, y3),
+            ///and determines whether these points lie on a single straight line.
+
+            //Console.WriteLine("please Enter the First Point");
+            //Console.Write("please Enter the X1 : ");
+            //bool isX1Num = int.TryParse(Console.ReadLine(), out int x1);
+            //Console.Write("please Enter the Y1 : ");
+            //bool isY1Num = int.TryParse(Console.ReadLine(), out int y1);
+
+            //Console.WriteLine("please Enter the Second Point");
+            //Console.Write("please Enter the X2 : ");
+            //bool isX2Num = int.TryParse(Console.ReadLine(), out int x2);
+            //Console.Write("please Enter the Y2 : ");
+            //bool isY2Num = int.TryParse(Console.ReadLine(), out int y2);
+
+            //Console.WriteLine("please Enter the Third Point");
+            //Console.Write("please Enter the X3 : ");
+            //bool isX3Num = int.TryParse(Console.ReadLine(), out int x3);
+            //Console.Write("please Enter the Y3 : ");
+            //bool isY3Num = int.TryParse(Console.ReadLine(), out int y3);
+
+            //if(isX1Num && isY1Num && isX2Num && isY2Num && isX3Num && isY3Num)
+            //{
+            //    if( (x1==x2 && x2==x3 ) || ( y1==y2 && y2==y3 ) || ( x1==y1 && x2==y2 && x3==y3 ))
+            //    {
+            //        Console.WriteLine("these points lie on a single straight line");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("these points NOT lie on a single straight line");
+            //    }
+            //}
+            //else
+            //{
+            //    Console.WriteLine("You Must Insert Just Number");
+            //}
+            ////---------------------------------------------------------
+            ////Another Solution
+            //double area = 0.5 * Math.Abs(x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2));
+
+            //if ( area == 0 )
+            //{
+            //    Console.WriteLine("these points lie on a single straight line");
+            //}
+            //else
+            //{
+            //        Console.WriteLine("these points NOT lie on a single straight line");
+
+            //}
+
+            #endregion
+
 
 
 
