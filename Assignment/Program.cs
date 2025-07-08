@@ -219,6 +219,31 @@
 
             #endregion
 
+            #region Q9
+            ///Write a program in C# Sharp to convert a decimal number into binary without using an array.
+            //Console.Write("Please Enter  Number : ");
+            //bool isParsed = int.TryParse(Console.ReadLine(), out int number);
+            //int binary = 0, power = 1;
+            //if (isParsed)
+            //{
+            //    while (number > 0)
+            //    {
+            //        int reminder = number % 2;
+            //        binary += reminder * power;
+            //        power *= 10;
+            //        number /= 2;
+            //    }
+            //    Console.WriteLine(binary);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("You Must Enter Number");
+            //}
+
+
+            #endregion
+
+
 
 
 
