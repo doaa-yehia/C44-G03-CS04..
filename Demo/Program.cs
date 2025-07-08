@@ -142,6 +142,52 @@
 
             #endregion
 
+            #region c#9.0
+            #region Example 01 [Relational Patterns]
+
+            //int num = 20;
+            //string res = num switch
+            //{
+            //    < 10 => "less Than 10",
+            //    >=10 and <=20 => "number is Between 10 and 20",
+            //    >20 =>"greater than 20"
+            //};
+
+            //Console.WriteLine(res);
+
+            #endregion
+
+            #region Example 02 [Logical Pattern And, Or]
+
+            //int num = 10;
+            //string res = num switch
+            //{
+            //    > 0 and < 10 => "Number is between 1 and 9 ",
+            //    >= 10 and <= 20 => "Number is between 10 and 20 ",
+            //    0 => "the number is Zero",
+            //    > 20 or < 0 => "Out of the Range"
+            //};
+
+            //Console.WriteLine(res);
+
+            #endregion
+
+            #region Example 03 [Enhanced Property Matching]
+            //Person person = new Person { Id = 10, Name = "Omar", Age = 25 };
+
+            //string res = person switch
+            //{
+            //    { Name:"Samy", Age:>20} =>"Hello Samy",
+            //    { Name:"Omar", Age:>=20 and <=24} =>"Hello Samy",
+            //    {  Age:>50 and <60} =>"Hello Old Man",
+            //    _=>"Sorry We Don't No You"
+            //};
+            //Console.WriteLine(res);
+
+            #endregion
+
+            #endregion
+
 
 
             #endregion
