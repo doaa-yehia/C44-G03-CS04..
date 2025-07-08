@@ -188,6 +188,35 @@
 
             #endregion
 
+            #endregion
+
+            #region Looping| Iteration Statement
+
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    Console.WriteLine(i);
+            //}
+            #region For - Foreach
+
+            //int[] numbers = { 1, 2, 3, 4, 5 };
+
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    if( i == 2)
+            //    {
+            //        //continue;
+            //        break;
+            //    }
+            //    Console.WriteLine(numbers[i]);
+            //}
+
+            //foreach (var item in numbers)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            #endregion
+
 
 
             #endregion
